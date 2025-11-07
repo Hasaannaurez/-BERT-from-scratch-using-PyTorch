@@ -6,6 +6,7 @@
 
 ## Setup
 Install all required dependencies before running:
+
 `pip install -r requirements.txt`
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
