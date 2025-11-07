@@ -40,7 +40,7 @@ Labels store the original tokens for the MLM task.
 Running the file (`data_prep.py`) executes `small_test()` to print a few masked examples.
 
 
-***Flow of `data_prep.py` :***
+**Flow of 'data_prep.py`:**  
 WikiText-2 → Sentences → Sentence pairs → Tokenized → Masked → Ready for BERT pretraining
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -76,7 +76,7 @@ It outputs token-level prediction scores and NSP classification logits.
 ### 7. Test
 Running the file (`model.py`) executes `_test_small_forward()` to verify output dimensions for both MLM and NSP heads.
 
-***Flow of `model.py` :***
+**Flow of 'model.py`:**  
 Input tokens → Embeddings → Encoder layers → MLM & NSP heads → Pretraining outputs
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -114,5 +114,5 @@ On GPU (Google Colab), I trained the full WikiText-2 dataset for complete pretra
 | 3 | 6.0936 | 4.7954 | 0.5627 | 5.3581 | 35.90% | 67.96% |
 
 
-**Flow:**  
+**Flow of 'train.py`:**  
 WikiText-2 → Sentence pairs → Masked tokens → Model training → MLM & NSP loss optimization
