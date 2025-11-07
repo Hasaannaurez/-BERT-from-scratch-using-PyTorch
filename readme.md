@@ -8,6 +8,7 @@
 Install all required dependencies before running:
 
 `pip install -r requirements.txt`
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 # BERT Data Preparation - data_prep.py
@@ -43,6 +44,8 @@ Running the file (`data_prep.py`) executes `small_test()` to print a few masked 
 
 **Flow of 'data_prep.py`:**  
 WikiText-2 → Sentences → Sentence pairs → Tokenized → Masked → Ready for BERT pretraining
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 # BERT Model - model.py
